@@ -1,4 +1,9 @@
-# chinese-population-ui
+# Vue3-Django5-Learn
+Vue3+Django5前后端分离的练手项目（小白）
+
+这里是前端代码，后端代码[在这里](https://www.google.com)。
+
+# chinese-population-ui（GitHub自动生成的🥰）
 
 This template should help get you started developing with Vue 3 in Vite.
 
