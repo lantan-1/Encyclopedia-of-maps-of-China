@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+    <title>登录</title>
+</head>
+<body>
+<h2>登录账户</h2>
+<form action="index/" method="post" name="myForm">
+    {% csrf_token %}
+    <!-- 文本输入框 -->
+    <label for="userName" style="width: 52px;display: inline-block">用户名:</label>
+    <input type="text" id="userName" name="userName" required>
+
+    <br>
+
+    <!-- 密码输入框 -->
+    <label for="password" style="width: 52px;display: inline-block">密&nbsp;&nbsp;&nbsp;码:</label>
+    <input type="password" id="password" name="password" required>
+
+    <br><br>
+
+    <!-- 提交按钮 -->
+    <button type="submit" ng-disabled="myForm.userName.$error.required">登录</button>
+
+    <!-- 提交按钮 -->
+    <button type="button" onclick="(()=>{location.href='/app01/toRegister/'})()">注册</button>
+
+</form>
+</body>
+</html>
