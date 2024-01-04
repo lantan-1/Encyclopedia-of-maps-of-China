@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* fade-slide */
+.fade-slide-leave-active,
+.fade-slide-enter-active {
+    transition: all 0.3s;
+}
+
+.fade-slide-enter-from {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+.fade-slide-leave-to {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.el-menu--collapse .el-menu .el-submenu, .el-menu--popup {
+    min-width: 100px !important;
+}
+
+.el-popper.is-customized {
+    /* Set padding to ensure the height is 32px */
+    padding: 6px 12px;
+    background: linear-gradient(90deg, rgb(159, 229, 151), rgb(204, 229, 129));
+}
+
+.el-popper.is-customized .el-popper__arrow::before {
+    background: linear-gradient(45deg, #b2e68d, #bce689);
+    right: 0;
+}
