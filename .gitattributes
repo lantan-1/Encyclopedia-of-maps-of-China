@@ -6,3 +6,5 @@
 *.sql linguist-language=Vue
 *.uml linguist-language=Vue 
 *.cmd linguist-language=Vue
+*.json linguist-language=Vue
+*.ts linguist-language=Vue
