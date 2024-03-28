@@ -6,4 +6,4 @@
 *.sql linguist-language=Python
 *.uml linguist-language=Python 
 *.cmd linguist-language=Python
-*.pylinguist-language=Python
+*.py linguist-language=Python
