@@ -10,4 +10,3 @@
 *.ts linguist-language=Python
 *.py linguist-language=Python
 *.java linguist-language=Python
-*.* linguist-language=Django
