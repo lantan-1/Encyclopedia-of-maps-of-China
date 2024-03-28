@@ -1,0 +1,9 @@
+*.yml linguist-language=Django 
+*.html linguist-language=Django 
+*.js linguist-language=Django 
+*.xml linguist-language=Django
+*.css linguist-language=Django 
+*.sql linguist-language=Django
+*.uml linguist-language=Django 
+*.cmd linguist-language=Django
+*.py linguist-language=Django
